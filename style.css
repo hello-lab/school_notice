@@ -1,0 +1,152 @@
+body {
+    box-shadow: inset 0 0 20px 6px black;
+    height: 97dvh;
+    padding: 2px;
+    background-size: cover;
+    background-image: url(assets/bg.jpg);
+}
+
+html{
+    background-color: wheat;
+    padding: 1dvh;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.head {
+    background: white;
+    font-family: Georgia, serif;
+    font-size: 6dvh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 6dvh;
+}
+
+.content {
+    padding: 1dvh;
+    height: 87dvh;
+    display: flex;
+    align-items: center;
+}
+.img1{
+    position: absolute;
+}
+.pin{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pin2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main-image {
+   
+    width: 60vw;
+    max-height: 75dvh;
+    box-shadow: 4px 3px 8px black;
+    border-radius: 10px;
+    border: solid;
+}
+
+.time {
+    top: 0;
+    right: 2vw;
+    display: flex;
+    position: fixed;
+    height: 100dvh;
+    width: 35vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date-time {
+    background-color: whitesmoke;
+    display: flex;
+    box-shadow: -2px 3px 8px black;
+    border-radius: 10px;
+    border: solid;
+    font-size: 7dvh;
+    justify-content: space-between;
+}
+
+#tiktok{
+    font-weight: bolder;
+}
+
+@media screen and (max-height: 2000px) {
+    body {
+        height: 96.5dvh;
+    }
+  }
+
+  .popup{
+    background: seagreen;
+    border: solid;
+    width: 40vw;
+    height: 25vh;
+    border-radius: 1dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pcont{
+    color:white;
+    font-size: 4dvh;
+    position: fixed;
+    width: 100dvw;
+    height: 100dvh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background: #00000096;
+    left: 0;
+  }
+
+  
+  .popup1{
+    font-size: 10dvh;
+    background: red;
+    border: solid;
+    width: 90vw;
+    height: 60vh;
+    border-radius: 1dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, serif;
+  }
+
+  .pcont1{
+    color:white;
+    font-size: 4dvh;
+    position: fixed;
+    width: 100dvw;
+    height: 100dvh;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background: #00000096;
+    left: 0;
+  }
