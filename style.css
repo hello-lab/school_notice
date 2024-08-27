@@ -90,11 +90,6 @@ html{
     font-weight: bolder;
 }
 
-@media screen and (max-height: 2000px) {
-    body {
-        height: 96.5dvh;
-    }
-  }
 
   .popup{
     background: seagreen;
