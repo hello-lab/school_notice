@@ -58,7 +58,7 @@ function startTimer(minutes) {
         (document.getElementsByClassName('popup1')[0]).style.display='flex'
       },500)
 
-    },5000)
+    },1000)
 
    
    
