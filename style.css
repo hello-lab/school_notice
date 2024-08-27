@@ -92,6 +92,7 @@ html{
   }
 
   .popup{
+    padding: 1vw;
     background: seagreen;
     border: solid;
     width: 40vw;
@@ -119,6 +120,7 @@ html{
 
   
   .popup1{
+    padding: 1vw;
     font-size: 15vh;
     background: seagreen;
     border: solid;
